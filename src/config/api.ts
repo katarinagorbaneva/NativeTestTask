@@ -1,7 +1,7 @@
 import { create } from 'apisauce';
 
 export const apiWrapper = create({
-  baseURL: `http://localhost:3000/api/v2`,
+  baseURL: `https://lzone.secret-agents.ru/api/v2`,
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
