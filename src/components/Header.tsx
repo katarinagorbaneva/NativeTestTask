@@ -28,7 +28,7 @@ export default function Header (): ReactElement {
 
     return (
       <View flexDirection='row' alignItems='center'>
-        <Image size={30} source={{uri: 'http://localhost:3000/system/users/avatar_croppeds/2022/07/25/1/main.jpg?1659469741'}} alt='avatar'/>
+        <Image size={30} source={{uri: avatarUrl}} alt='avatar'/>
         <Text>{username}</Text>
       </View>
     );
